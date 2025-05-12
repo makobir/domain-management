@@ -1,0 +1,42 @@
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.table-responsive {
+    margin-bottom: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.card-header {
+    font-weight: 500;
+}
+
+.badge {
+    font-weight: 500;
+}
+
+.alert {
+    margin-bottom: 20px;
+}
+
+.pagination {
+    justify-content: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .btn-group {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+    .btn-group .btn {
+        width: 100%;
+    }
+}
